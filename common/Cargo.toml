@@ -1,0 +1,10 @@
+[package]
+name = "common"
+rust-version.workspace = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+ustr.workspace = true
+tokio.workspace = true

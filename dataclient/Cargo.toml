@@ -1,0 +1,12 @@
+[package]
+name = "dataclient"
+rust-version.workspace = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+common = {path = "../common"}
+msgbus = {path = "../msgbus"}   
+ustr.workspace = true
+tokio.workspace = true

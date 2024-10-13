@@ -1,0 +1,12 @@
+[package]
+name = "strategy"
+rust-version.workspace = true
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+common = { path = "../common" }
+tokio = { workspace = true }
+ustr = { workspace = true }
+msgbus = { path = "../msgbus" }
